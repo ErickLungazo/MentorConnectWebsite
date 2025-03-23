@@ -1,4 +1,8 @@
 import React from "react";
+import joan from "@/assets/joan.jpg";
+import wiki from "@/assets/wiki.jpg";
+import eric from "@/assets/eric.jpg";
+import Logo from "@/assets/logo.png";
 
 const CTA = () => {
     return (
@@ -10,24 +14,21 @@ const CTA = () => {
                         <div className="w-20 h-20 -mr-6 overflow-hidden bg-gray-300 rounded-full">
                             <img
                                 className="object-cover w-full h-full"
-                                src="https://cdn.rareblocks.xyz/collection/celebration/images/cta/2/female-avatar-1.jpg"
-                                alt="Mentor"
+                                src={joan}                                alt="Mentor"
                             />
                         </div>
 
                         <div className="relative overflow-hidden bg-gray-300 border-8 border-white rounded-full w-28 h-28">
                             <img
                                 className="object-cover w-full h-full"
-                                src="https://cdn.rareblocks.xyz/collection/celebration/images/cta/2/male-avatar-1.jpg"
-                                alt="Mentee"
+                                src={eric}                                alt="Mentee"
                             />
                         </div>
 
                         <div className="w-20 h-20 -ml-6 overflow-hidden bg-gray-300 rounded-full">
                             <img
                                 className="object-cover w-full h-full"
-                                src="https://cdn.rareblocks.xyz/collection/celebration/images/cta/2/female-avatar-2.jpg"
-                                alt="Mentor"
+                                src={wiki}                                alt="Mentor"
                             />
                         </div>
                     </div>

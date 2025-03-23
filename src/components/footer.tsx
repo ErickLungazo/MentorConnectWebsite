@@ -1,4 +1,8 @@
 import React from "react";
+import twiter from "@/assets/twitter.png";
+import facebook from "@/assets/facebook.png";
+import instagram from "@/assets/instagram.png";
+import linkedin from "@/assets/linkedin.png";
 import Logo from "@/assets/logo.png";
 
 const Footer = () => {
@@ -62,16 +66,16 @@ const Footer = () => {
                         <p className="text-base font-semibold text-gray-900">Connect with Us</p>
                         <div className="flex space-x-3 mt-6">
                             <a href="#" className="social-icon">
-                                <img src="/assets/facebook.svg" alt="Facebook" className="w-6 h-6" />
+                                <img src={facebook} alt="Facebook" className="w-6 h-6" />
                             </a>
                             <a href="#" className="social-icon">
-                                <img src="/assets/twitter.svg" alt="Twitter" className="w-6 h-6" />
+                                <img src={twiter} alt="Twitter" className="w-6 h-6" />
                             </a>
                             <a href="#" className="social-icon">
-                                <img src="/assets/linkedin.svg" alt="LinkedIn" className="w-6 h-6" />
+                                <img src={linkedin} alt="LinkedIn" className="w-6 h-6" />
                             </a>
                             <a href="#" className="social-icon">
-                                <img src="/assets/instagram.svg" alt="Instagram" className="w-6 h-6" />
+                                <img src={instagram} alt="Instagram" className="w-6 h-6" />
                             </a>
                         </div>
                     </div>

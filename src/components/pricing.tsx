@@ -15,7 +15,7 @@ const pricingPlans = [
     },
     {
         name: "Premium",
-        price: 19,
+        price: 1900,
         paymentType: "Monthly Subscription",
         features: [
             "Priority mentor matching with AI",
@@ -29,7 +29,7 @@ const pricingPlans = [
     },
     {
         name: "Enterprise",
-        price: 99,
+        price: 9900,
         paymentType: "Monthly Subscription",
         features: [
             "Custom mentorship programs for universities & companies",
@@ -68,7 +68,7 @@ const Pricing: React.FC = () => {
                                     {plan.name}
                                 </h3>
                                 <p className="text-5xl font-bold text-black mt-7">
-                                    {plan.price === 0 ? "Free" : `$${plan.price}`}
+                                    {plan.price === 0 ? "Free" : `Ksh. ${plan.price}`}
                                 </p>
                                 <p className="mt-3 text-base text-gray-600">{plan.paymentType}</p>
 

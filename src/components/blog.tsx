@@ -1,11 +1,15 @@
 import React from 'react';
+import mentorship from '@/assets/mentorship.jpg';
+import network from '@/assets/network.jpg';
+import carrier from '@/assets/carrier.jpg';
+import power from '@/assets/power.jpg';
 
 const blogPosts = [
     {
         title: "The Power of Mentorship: How Guidance Shapes Careers",
         category: "Mentorship",
         categoryColor: "text-green-500 bg-green-100",
-        image: "https://cdn.rareblocks.xyz/collection/celebration/images/blog/1/blog-post-1.jpg",
+        image: power,
         description: "Discover how mentorship accelerates career growth, builds confidence, and opens doors to new opportunities.",
         author: "Eric Lung'atso",
         date: "March 22, 2025",
@@ -15,7 +19,7 @@ const blogPosts = [
         title: "AI in Career Coaching: How Technology is Shaping the Future",
         category: "Technology",
         categoryColor: "text-blue-500 bg-blue-100",
-        image: "https://cdn.rareblocks.xyz/collection/celebration/images/blog/1/blog-post-2.jpg",
+        image: carrier,
         description: "Explore how AI-powered mentorship is revolutionizing career guidance, providing personalized recommendations for mentees.",
         author: "MentorConnect Team",
         date: "March 18, 2025",
@@ -25,9 +29,9 @@ const blogPosts = [
         title: "Networking for Success: How to Connect with the Right People",
         category: "Career Development",
         categoryColor: "text-purple-500 bg-purple-100",
-        image: "https://cdn.rareblocks.xyz/collection/celebration/images/blog/1/blog-post-3.jpg",
+        image: network,
         description: "Learn strategies to expand your professional network and unlock career opportunities through mentorship and networking.",
-        author: "Jane Doe",
+        author: "Joan Akinyi",
         date: "March 15, 2025",
         link: "#",
     },
@@ -35,9 +39,9 @@ const blogPosts = [
         title: "Internship Tips: How to Stand Out and Secure Opportunities",
         category: "Internships",
         categoryColor: "text-orange-500 bg-orange-100",
-        image: "https://plus.unsplash.com/premium_photo-1661611218805-2886d4e39667?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image: mentorship,
         description: "From resume-building to interview preparation, here’s how to make the most of internship opportunities.",
-        author: "John Smith",
+        author: "Wycliffe Aburiri",
         date: "March 10, 2025",
         link: "#",
     },

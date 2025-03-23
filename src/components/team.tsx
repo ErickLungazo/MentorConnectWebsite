@@ -1,50 +1,23 @@
 import React from 'react';
+import joan from "@/assets/joan.jpg";
+import wiki from "@/assets/wiki.jpg";
+import eric from "@/assets/eric.jpg";
 
 const teamMembers = [
     {
-        name: "Jenny Wilson",
-        role: "Founder",
-        image: "https://cdn.rareblocks.xyz/collection/celebration/images/team/3/team-avatar-1.jpg",
+        name: "Joan Akinyi",
+        role: "Project Manager",
+        image: joan,
     },
     {
-        name: "Darrell Steward",
-        role: "CTO",
-        image: "https://cdn.rareblocks.xyz/collection/celebration/images/team/3/team-avatar-2.jpg",
-    },
-    {
-        name: "Bessie Cooper",
-        role: "CMO",
-        image: "https://cdn.rareblocks.xyz/collection/celebration/images/team/3/team-avatar-3.jpg",
-    },
-    {
-        name: "Arlene McCoy",
-        role: "Senior Developer",
-        image: "https://cdn.rareblocks.xyz/collection/celebration/images/team/3/team-avatar-4.jpg",
-    },
-    {
-        name: "Brooklyn Simmons",
-        role: "Product Designer",
-        image: "https://cdn.rareblocks.xyz/collection/celebration/images/team/3/team-avatar-5.jpg",
-    },
-    {
-        name: "Jerome Bell",
-        role: "Customer Success",
-        image: "https://cdn.rareblocks.xyz/collection/celebration/images/team/3/team-avatar-6.jpg",
-    },
-    {
-        name: "Dianne Russell",
+        name: "Wycliffe Aburiri",
         role: "Front-end Developer",
-        image: "https://cdn.rareblocks.xyz/collection/celebration/images/team/3/team-avatar-7.jpg",
+        image: wiki,
     },
     {
-        name: "Kristin Watson",
-        role: "H.R",
-        image: "https://cdn.rareblocks.xyz/collection/celebration/images/team/3/team-avatar-8.jpg",
-    },
-    {
-        name: "Eleanor Pena",
-        role: "UI Designer",
-        image: "https://cdn.rareblocks.xyz/collection/celebration/images/team/3/team-avatar-9.jpg",
+        name: "Eric Lung'atso",
+        role: "Back-end Developer",
+        image: eric,
     },
 ];
 
@@ -61,7 +34,7 @@ const Team: React.FC = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-10 lg:mt-16">
+                <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-3 xl:grid-cols-3 gap-8 mt-10 lg:mt-16">
                     {teamMembers.map((member, index) => (
                         <div key={index} className="text-center">
                             <img className="object-cover mx-auto rounded-lg w-28 h-28" src={member.image} alt={member.name} />
